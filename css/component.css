@@ -70,7 +70,7 @@
 	color: #f9f1e9;
 	text-align: center;
 	right: 10%;
-	bottom: 8%;
+	bottom: 0;
 	z-index:99;
 	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
 	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
