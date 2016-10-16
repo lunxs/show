@@ -1,0 +1,67 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo .large-header {
+	background-image: url('../img/demo-bg.jpg');
+	background-position: center bottom;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
+	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
+	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
+	       -o-transform:translate3d(-50%,-50%,0);
+			   transform: translate3d(-50%,-50%,0);
+}
+
+.demo .main-title {
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 8em;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.demo .main-title::before {
+	content: '';
+	width: 20vw;
+	height: 20vw;
+	min-width: 4em;
+	min-height: 4em;
+	background: url(../img/deco.svg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	z-index: -1;
+	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
+			   transform: translate3d(-50%,-50%,0);
+	
+
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo .main-title {
+		font-size: 4em;
+	}
+}
