@@ -69,9 +69,9 @@
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	right: 8em;
-	bottom: 1em;
-	z-index:999;
+	right: 10%;
+	bottom: 8%;
+	z-index:99;
 	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
 	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
 	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
