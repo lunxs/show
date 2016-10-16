@@ -24,9 +24,9 @@
 	left: 50%;
 	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
 	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
-	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
-	       -o-transform:translate3d(-50%,-50%,0);
-			   transform: translate3d(-50%,-50%,0);
+	    -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
+	     -o-transform:translate3d(-50%,-50%,0);
+		transform:translate3d(-50%,-50%,0);
 }
 
 .demo .main-title {
@@ -50,8 +50,11 @@
 	left: 50%;
 	border-radius: 50%;
 	z-index: -1;
-	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
-			   transform: translate3d(-50%,-50%,0);
+	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
+	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
+	    -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
+	     -o-transform:translate3d(-50%,-50%,0);
+		transform:translate3d(-50%,-50%,0);
 	
 
 }
