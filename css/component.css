@@ -63,6 +63,34 @@
 	font-weight: 200;
 }
 
+.footer{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	right: 8em;
+	bottom: 1em;
+	z-index:999;
+	-webkit-transform:translate3d(-50%,-50%,0); /* Safari 和 Chrome */
+	   -moz-transform:translate3d(-50%,-50%,0); 	/* Firefox */
+	     -ms-transform:translate3d(-50%,-50%,0); 	/* IE 9 */
+	       -o-transform:translate3d(-50%,-50%,0);
+			   transform: translate3d(-50%,-50%,0);
+}
+.footer .school{
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.footer .miss{
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
 @media only screen and (max-width : 768px) {
 	.demo .main-title {
 		font-size: 4em;
